@@ -10,7 +10,7 @@ public class HelloResource {
 	@Path("/{param}")
 	public Response getMsg(@PathParam("param") String msg) {
 
-		String output = "Jersey say : " + msg;
+		String output = "This is the first rest service " + msg;
 
 		return Response.status(200).entity(output).build();
 
