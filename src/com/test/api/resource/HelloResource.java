@@ -10,7 +10,7 @@ public class HelloResource {
 	@Path("/{param}")
 	public Response getMsg(@PathParam("param") String msg) {
 
-		String output = "This is the first rest service - Updated to check Jenkin trigger 11" + msg;
+		String output = "This is the first rest service - Updated to check Jenkin trigger 112" + msg;
 		
 
 		return Response.status(200).entity(output).build();
